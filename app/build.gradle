@@ -6,9 +6,9 @@ android {
     signingConfigs {
         release {
             storeFile file("./release.jks")
-            storePassword (project.hasProperty("KEYSTORE_PASS") ? KEYSTORE_PASS : System.getenv("KEYSTORE_PASS"))
-            keyAlias (project.hasProperty("ALIAS_NAME") ? ALIAS_NAME : System.getenv("ALIAS_NAME"))
-            keyPassword (project.hasProperty("ALIAS_PASS") ? ALIAS_PASS : System.getenv("ALIAS_PASS"))
+            storePassword (project.hasProperty("STORE_PASSWORD") ? KEYSTORE_PASS : System.getenv("STORE_PASSWORD"))
+            keyAlias (project.hasProperty("KEY_ALIAS") ? ALIAS_NAME : System.getenv("KEY_ALIAS"))
+            keyPassword (project.hasProperty("KEY_PASSWORD") ? ALIAS_PASS : System.getenv("KEY_PASSWORD"))
         }
     }
     defaultConfig {
