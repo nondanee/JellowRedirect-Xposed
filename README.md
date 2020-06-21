@@ -2,7 +2,7 @@
 
 > 即刻可能是唯一个为了有夜间模式开发两个app的公司。[@条件状语从句](https://github.com/whatberry)
 
-Work for Jellow APP v8.2.4(920) on Android
+适配 Jellow 版本: v8.2.4(920), v8.2.5(921)
 
 ## Feature
 
